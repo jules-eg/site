@@ -25,22 +25,21 @@ header {
 
 /* Styles du sommaire */
 /* Styles du sommaire */
+/* Styles du sommaire */
 #sommaire {
-  background-color: #333;
-  padding: 0px;
+  background-color: #ebe4d9;
+  padding: 20px;
   border-radius: 15px;
   position: fixed;
   top: 0;
-  align-self: start;
-  left: -400%; /* Déplace le sommaire hors de l'écran à gauche */
-  max-width: 500px;
+  left: 0;
+  width: 500px;
   z-index: 999;
-  transition: left 0.3s ease; /* Ajoute une transition fluide lors du déplacement */
+  transition: left 0.3s ease-out;
 }
 
 #sommaire.active {
-  left: 0; /* Affiche le sommaire à sa position originale */
-  background-color: #f3f0e8;
+  left: -(500px + 100px);
 }
 
 
