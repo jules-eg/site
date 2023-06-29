@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
       var sommaireHeight = sommaire.offsetHeight;
   
       // Calculer la position de défilement en tenant compte de la hauteur du sommaire
-      var scrollToPosition = targetSection.offsetTop - sommaireHeight;
+      var scrollToPosition = targetSection.offsetTop;
   
       // Défiler jusqu'à la position
       window.scrollTo({
