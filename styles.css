@@ -27,7 +27,7 @@ header {
 /* Styles du sommaire */
 #sommaire {
   background-color: #ebe4d9;
-  padding: 20px;
+  padding: 0px;
   border-radius: 15px;
   position: fixed;
   top: 0;
