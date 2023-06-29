@@ -28,6 +28,7 @@ header {
 /* Styles du sommaire */
 #sommaire {
   background-color: #333;
+  
   padding: 20px;
   border-radius: 15px;
   position: fixed;
@@ -36,10 +37,10 @@ header {
   max-width: 50%;
   z-index: 999;
   transition: left 0.3s ease-out;
+
 }
 
 #sommaire.active {
-  
   background-color: #ebe4d9
 
 }
