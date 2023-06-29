@@ -33,7 +33,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  width: 500px;
+  maxwidth: 500px;
   z-index: 999;
   transition: left 0.3s ease-out;
 }
