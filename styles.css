@@ -32,7 +32,7 @@ header {
   position: fixed;
   top: 0;
   left: -10%; /* Déplace le sommaire hors de l'écran à gauche */
-  max-width: 50px;
+  max-width: 50%;
   z-index: 999;
   transition: left 0.3s ease; /* Ajoute une transition fluide lors du déplacement */
 }
