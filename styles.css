@@ -75,12 +75,17 @@ section {
   width: 90%;
 }
 
-img {
+.image-wrapper {
   max-width: 500px;
-  max-width: 100%;
-  border-radius: 15px;
-  max-height: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+}
+
 
 /* Styles du pied de page */
 footer {
