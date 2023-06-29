@@ -41,8 +41,7 @@ header {
 }
 
 #sommaire.active {
-  opacity: 10%;
-
+  opacity: 100%;
   background-color: #ebe4d9
 
 }
