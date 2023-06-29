@@ -20,6 +20,24 @@ document.addEventListener('DOMContentLoaded', function() {
 
       sommaire.classList.remove('active'); // Rétracte le sommaire après un clic sur un lien
     });
+
+    // Gestion des événements tactiles pour les appareils mobiles
+    lien.addEventListener('touchend', function(e) {
+      e.preventDefault();
+      var targetSection = document.querySelector(this.getAttribute('href'));
+      var sommaireHeight = sommaire.offsetHeight;
+
+      // Calculer la position de défilement en tenant compte de la hauteur du sommaire
+      var scrollToPosition = targetSection.offsetTop - sommaireHeight;
+
+      // Défiler jusqu'à la position
+      window.scrollTo({
+        top: scrollToPosition,
+        behavior: 'smooth'
+      });
+
+      sommaire.classList.remove('active'); // Rétracte le sommaire après un toucher sur un lien
+    });
   });
 
   sommaireToggle.addEventListener('click', function(e) {
