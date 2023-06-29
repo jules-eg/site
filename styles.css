@@ -1,83 +1,77 @@
 /* Styles généraux */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f3f0e8;
-    color: #333;
-  }
-  
-  h1, h2, h3 {
-    color: #654321;
-  }
-  
-  a {
-    text-decoration: none;
-    color: #654321;
-  }
-  
-  /* Styles de l'en-tête */
-  header {
-    background-color: #ebe4d9;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  /* Styles du sommaire */
-  #sommaire {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 999;
-  }
-  
-  #sommaire ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  #sommaire li {
-    margin-bottom: 10px;
-  }
-  
-  /* Styles du contenu principal */
-  main {
-    padding: 20px;
-    margin-top: 120px; /* Ajoutez un espace en haut pour éviter que le contenu principal ne soit masqué par le sommaire fixe */
-  }
-  
-  section {
-    margin-bottom: 40px;
-  }
-  
-  .content {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-  }
-  
-  .photo img {
-    max-width: 50%;
-    border-radius: 8px;
-    margin-bottom: 10px;
-  }
-  
-  /* Styles du pied de page */
-  footer {
-    background-color: #ebe4d9;
-    padding: 20px;
-    text-align: center;
-    font-size: 0.8em;
-    color: #777;
-  }
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f0e8;
+  color: #333;
+}
 
-  section#galerie video {
-    max-width: 20%;
-    border-radius: 8px;
-    margin-bottom: 10px;
-  }
-  
+h1, h2, h3 {
+  color: #654321;
+}
+
+a {
+  text-decoration: none;
+  color: #654321;
+}
+
+/* Styles de l'en-tête */
+header {
+  background-color: #ebe4d9;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Styles du sommaire */
+#sommaire {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+#sommaire ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#sommaire li {
+  margin-bottom: 10px;
+}
+
+/* Styles du contenu principal */
+main {
+  padding: 20px;
+  margin-top: 120px; /* Ajoutez un espace en haut pour éviter que le contenu principal ne soit masqué par le sommaire fixe */
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+.content {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+img {
+  max-width: 100%;
+  max-width: 500px;
+  border-radius: 15px;
+  max-height: 500px;
+}
+
+/* Styles du pied de page */
+footer {
+  background-color: #ebe4d9;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.8em;
+  color: #777;
+}
