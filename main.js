@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Cacher le sommairje
   function cacherSommaire() {
-    sommaire.style.left = -(sommaire.offsetWidth + 100) + 'px';
+    sommaire.style.left = -(sommaire.offsetWidth) + 'px';
   }
 
   // Afficher le sommaire
