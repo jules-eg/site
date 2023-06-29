@@ -40,7 +40,6 @@ header {
 
 #sommaire.active {
   left: 0; /* Affiche le sommaire à sa position originale */
-  background-color: #333;
 }
 
 
