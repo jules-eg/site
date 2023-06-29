@@ -61,7 +61,7 @@ header {
 /* Styles du contenu principal */
 main {
   padding: 20px;
-  /* margin-top: 120px; Ajoutez un espace en haut pour éviter que le contenu principal ne soit masqué par le sommaire fixe */
+  margin-top: 120px; /* Ajoutez un espace en haut pour éviter que le contenu principal ne soit masqué par le sommaire fixe */
 }
 
 section {
