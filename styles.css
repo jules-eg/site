@@ -76,8 +76,9 @@ section {
 }
 
 img {
-  max-width: 500px;
   max-width: 90%;
+  max-width: 500px;
+
   border-radius: 15px;
   max-height: 500px;
 }
