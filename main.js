@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var sommaire = document.querySelector('#sommaire');
   var liensSommaire = sommaire.querySelectorAll('a');
 
-  // Cacher le sommaire
+  // Cacher le sommairje
   function cacherSommaire() {
     sommaire.style.left = -(sommaire.offsetWidth + 100) + 'px';
   }
