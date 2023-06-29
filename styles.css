@@ -1,7 +1,4 @@
 /* Styles généraux */
-/*
-
-*/
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
@@ -28,7 +25,17 @@ header {
 
 /* Styles du sommaire */
 /* Styles du sommaire */
-
+#sommaire {
+  background-color: #ebe4d9;
+  padding: 20px;
+  border-radius: 15px;
+  position: fixed;
+  top: 0;
+  left: -10%; /* Déplace le sommaire hors de l'écran à gauche */
+  max-width: 50px;
+  z-index: 999;
+  transition: left 0.3s ease; /* Ajoute une transition fluide lors du déplacement */
+}
 
 #sommaire.active {
   left: 0; /* Affiche le sommaire à sa position originale */
