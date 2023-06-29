@@ -83,7 +83,7 @@ img, video {
 }
 
 @media (max-width: 600px) {
-  img {
+  img, video {
     max-width: 100%;
   }
 }
