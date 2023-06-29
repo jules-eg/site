@@ -33,7 +33,7 @@ header {
   top: 0;
   align-self: start;
   left: -10%; /* Déplace le sommaire hors de l'écran à gauche */
-  max-width: 50%;
+  max-width: 500px;
   z-index: 999;
   transition: left 0.3s ease; /* Ajoute une transition fluide lors du déplacement */
 }
