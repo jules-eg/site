@@ -1,4 +1,8 @@
 /* Styles généraux */
+/*
+while true; do  clear && git add styles.css && git add main.js && git add index.html && git commit -m "maj
+" && git push; sleep 10 ; done
+*/
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
