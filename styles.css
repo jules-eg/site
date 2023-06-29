@@ -39,7 +39,7 @@ header {
 }
 
 #sommaire.active {
-  left: -(500px + 100px);
+  
   background-color: #ebe4d9
 
 }
