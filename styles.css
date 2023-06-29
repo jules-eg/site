@@ -76,7 +76,7 @@ section {
   width: 90%;
 }
 
-img {
+img, video {
   max-width: 500px;
   border-radius: 15px;
   max-height: 500px;
