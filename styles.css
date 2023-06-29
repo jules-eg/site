@@ -61,7 +61,7 @@ body {
   }
   
   .photo img {
-    max-width: 100%;
+    max-width: 50%;
     border-radius: 8px;
     margin-bottom: 10px;
   }
@@ -73,5 +73,11 @@ body {
     text-align: center;
     font-size: 0.8em;
     color: #777;
+  }
+
+  section#galerie video {
+    max-width: 20%;
+    border-radius: 8px;
+    margin-bottom: 10px;
   }
   
