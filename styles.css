@@ -18,21 +18,29 @@ a {
 
 /* Styles de l'en-tête */
 header {
-  background-color: #ebe4d9;
+  background-color: #f3f0e8;
   padding: 20px;
   text-align: center;
 }
 
 /* Styles du sommaire */
+/* Styles du sommaire */
 #sommaire {
-  background-color: #ffffff;
+  background-color: #ebe4d9;
   padding: 20px;
-  border-radius: 8px;
+  border-radius: 15px;
   position: fixed;
   top: 0;
-  width: 100%;
+  left: -500px; /* Déplace le sommaire hors de l'écran à gauche */
+  width: 500px;
   z-index: 999;
+  transition: left 0.3s ease; /* Ajoute une transition fluide lors du déplacement */
 }
+
+#sommaire.active {
+  left: 0; /* Affiche le sommaire à sa position originale */
+}
+
 
 #sommaire ul {
   list-style-type: none;
