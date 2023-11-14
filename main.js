@@ -36,8 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
   document.addEventListener('click', function(e) {
     // Si le clic est en dehors du sommaire, le cacher
     if (!sommaire.contains(e.target)) {
-      // Cacher le sommaire
-      
+      //Afficher le sommaire
       afficherSommaire();
     }
   });
