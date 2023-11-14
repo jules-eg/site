@@ -41,7 +41,9 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     //Si pas le sommaire et pas un lien du sommaire alors cacher le sommaire
-    
+    if (!sommaire.contains(e.target) && !liensSommaire.contains(e.target)) {
+      cacherSommaire();
+    }
   });
 
   // Appel initial pour cacher le sommaire
