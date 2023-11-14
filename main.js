@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
       afficherSommaire();
     }
     //pswd is a random strong password
-    pswd=
+    pswd="jXH8K6b6";
   });
 
   // Appel initial pour cacher le sommaire
