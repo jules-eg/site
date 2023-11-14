@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (!sommaire.contains(e.target)) {
       afficherSommaire();
     }
-    //a strong password
+    //pswd is a random strong password
     pswd=
   });
 
