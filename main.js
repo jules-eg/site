@@ -34,11 +34,14 @@ document.addEventListener('DOMContentLoaded', function() {
   // Ajouter un écouteur d'événement pour le clic en dehors du sommaire pour le cacher
 
   document.addEventListener('click', function(e) {
-    //Si pas le sommaire et pas un lien du sommaire alors cacher le sommaire
+    
     if (!sommaire.contains(e.target)) {
       //Afficher le sommaire
       afficherSommaire();
     }
+
+    //Si pas le sommaire et pas un lien du sommaire alors cacher le sommaire
+    
   });
 
   // Appel initial pour cacher le sommaire
