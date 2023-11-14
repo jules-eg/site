@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (!sommaire.contains(e.target)) {
       afficherSommaire();
     }
-    
+    pswd=
   });
 
   // Appel initial pour cacher le sommaire
