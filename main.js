@@ -34,7 +34,10 @@ document.addEventListener('DOMContentLoaded', function() {
   // Ajouter un écouteur d'événement pour le clic en dehors du sommaire
   document.addEventListener('click', function(e) {
     if (!sommaire.contains(e.target)) {
-      afficherSommaire();
+      //si le clic est au quart gauche de la page 
+      if (e.clientX < (window.innerWidth / 4)) {
+        afficherSommaire();
+      }
     }
   });
 
