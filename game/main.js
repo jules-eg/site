@@ -21,3 +21,4 @@ window.addEventListener('load', function() {
     // Mettre à jour le contenu de la balise <h2>
     document.getElementById('nomFichier').textContent = "Nom du fichier actuel : " + nomFichier;
 });
+main.js
