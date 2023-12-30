@@ -11,7 +11,7 @@ function rediriger() {
         alert('Veuillez entrer une URL valide.');
     }
 }
-document.addEventListener('DOMContentLoaded', function() {
+window.addEventListener('load', function() {
     // Récupérer le chemin (path) du fichier actuel
     var cheminFichier = window.location.pathname;
 
