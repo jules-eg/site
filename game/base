@@ -14,7 +14,7 @@
         <input type="text" id="urlInput" placeholder="choose a number" required>
         <button type="button" onclick="rediriger()">Rediriger</button>
     </form>
-    <h2 id="nomFichier"></h2>
+    <h2 id="nomFichier">base</h2>
     <script src="main.js"></script>
 </body>
 </html>
