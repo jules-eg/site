@@ -11,3 +11,11 @@ function rediriger() {
         alert('Veuillez entrer une URL valide.');
     }
 }
+    // Récupérer le chemin (path) du fichier actuel
+    var cheminFichier = window.location.pathname;
+
+    // Obtenir le nom du fichier à partir du chemin
+    var nomFichier = cheminFichier.substring(cheminFichier.lastIndexOf('/') + 1);
+
+    // Mettre à jour le contenu de la balise <h2>
+    document.getElementById('nomFichier').textContent = "Nom du fichier actuel : " + nomFichier;
