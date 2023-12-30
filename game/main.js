@@ -11,6 +11,7 @@ function rediriger() {
         alert('Veuillez entrer une URL valide.');
     }
 }
+document.addEventListener('DOMContentLoaded', function() {
     // Récupérer le chemin (path) du fichier actuel
     var cheminFichier = window.location.pathname;
 
@@ -19,3 +20,4 @@ function rediriger() {
 
     // Mettre à jour le contenu de la balise <h2>
     document.getElementById('nomFichier').textContent = "Nom du fichier actuel : " + nomFichier;
+});
