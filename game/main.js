@@ -7,8 +7,6 @@ function naviguer() {
 
     // Construire l'URL en fonction des valeurs des étapes
     var url = '/var/www/html/game/' + etape1 + '/' + etape2 + '/' + etape3 + '/' + etape4;
-    
-    // Vous pouvez également rediriger l'utilisateur vers l'URL construite si nécessaire
-    // window.location.href = url;
+
     alert('Vous accédez à la page : ' + url);
 }
