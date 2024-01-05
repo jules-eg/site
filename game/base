@@ -11,21 +11,6 @@
 <body>
     <a href="https://pastju.com/game/"><h1>Home : </h1><img src="https://cdn-icons-png.flaticon.com/512/25/25694.png" alt="https://cdn-icons-png.flaticon.com/512/25/25694.png" style="max-width: 50px; "></a>
     <h1>Oh, no.... That page is not good, try again later !</h1>
-    <form id="navigationForm">
-        <label for="etape1">Number 1 : </label>
-        <input type="number" id="etape1" min="0" max="9" value="0" size="15" required>
-        <br>
-        <label for="etape2">Number 2 : </label>
-        <input type="number" id="etape2" min="0" max="9" value="0" size="15" required>
-        <br>
-        <label for="etape3">Number 3 : </label>
-        <input type="number" id="etape3" min="0" max="9" value="0" size="15" required>
-        <br>
-        <label for="etape4">Number 4 : </label>
-        <input type="number" id="etape4" min="0" max="9" value="0" size="15" required>
-        <br>
-        <button type="button" onclick="naviguer()">Accéder à la page</button>
-    </form>
 
     <div id="resultat"></div>
 
