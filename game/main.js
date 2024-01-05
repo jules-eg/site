@@ -5,7 +5,9 @@ function naviguer() {
     var etape3 = document.getElementById('etape3').value;
     var etape4 = document.getElementById('etape4').value;
     var etape5 = document.getElementById('etape5').value;
-    var
+    var etape6 = document.getElementById('etape6').value;
+    var etape7 = document.getElementById('etape7').value;
+    var etape8 = document.getElementById('etape8').value;
 
     // Construire l'URL en fonction des valeurs des étapes
     var url = 'http://pastju.com/game/'+etape1 + '/' + etape2 + '/' + etape3 + '/' + etape4 + '/' + etape5;
