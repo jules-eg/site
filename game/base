@@ -9,7 +9,7 @@
     <script src="../../../main.js"></script>
 </head>
 <body>
-    <a href="https://pastju.com/game/"><h1>Home : </h1><img src="https://cdn-icons-png.flaticon.com/512/25/25694.png" alt="https://cdn-icons-png.flaticon.com/512/25/25694.png" style="max-width: 50px; "></a>
+    <a href="https://pastju.com/game/"><h1>Home : </h1></a>
     <h1>Oh, no.... That page is not good, try again later !</h1>
 
     <div id="resultat"></div>
