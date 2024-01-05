@@ -15,7 +15,7 @@
         <button type="button" onclick="rediriger()">Rediriger</button>
     </form>
     <h2 id="nomFichier">base</h2>
-    <script src="../..main.js"></script>
+    <script src="../../main.js"></script>
 </body>
 </html>
 base
