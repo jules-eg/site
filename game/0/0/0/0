@@ -22,13 +22,10 @@
     <form id="navigationForm">
         <label for="etape1">Étape 1 :</label>
         <input type="number" id="etape1" required>
-
         <label for="etape2">Étape 2 :</label>
         <input type="number" id="etape2" required>
-
         <label for="etape3">Étape 3 :</label>
         <input type="number" id="etape3" required>
-
         <label for="etape4">Étape 4 :</label>
         <input type="number" id="etape4" required>
 
