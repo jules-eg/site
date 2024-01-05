@@ -1,4 +1,12 @@
 /* Styles géknéraux */
+.custom-box {
+  border: 2px solid #000; /* Couleur noire pour la bordure, vous pouvez ajuster la couleur */
+  padding: 20px; /* Marge intérieure pour le contenu */
+  border-radius: 5px; /* Bordure arrondie, vous pouvez ajuster la valeur */
+  width: 200px; /* Largeur de la boîte, vous pouvez ajuster la valeur */
+  text-align: center; /* Alignement du texte au centre */
+}
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
