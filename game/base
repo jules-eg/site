@@ -9,7 +9,7 @@
     <script src="../../../main.js"></script>
 </head>
 <body>
-    <a href=""></a>
+    <a href="pastju;"></a>
     <h1>Oh, no.... That page is not good, try again later !</h1>
     <form id="navigationForm">
         <label for="etape1">Number 1 : </label>
