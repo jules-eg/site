@@ -13,12 +13,16 @@
     <form id="navigationForm">
         <label for="etape1">Number 1 : </label>
         <input type="number" id="etape1" min="0" max="9" value="0" size="15" required>
+        <br>
         <label for="etape2">Number 2 : </label>
         <input type="number" id="etape2" min="0" max="9" value="0" size="15" required>
+        <br>
         <label for="etape3">Number 3 : </label>
         <input type="number" id="etape3" min="0" max="9" value="0" size="15" required>
+        <br>
         <label for="etape4">Number 4 : </label>
         <input type="number" id="etape4" min="0" max="9" value="0" size="15" required>
+        <br>
         <button type="button" onclick="naviguer()">Accéder à la page</button>
     </form>
 
