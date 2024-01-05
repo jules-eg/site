@@ -1,16 +1,21 @@
-function rediriger() {
-    // Récupérer la valeur de l'URL entrée par l'utilisateur
-    var url = document.getElementById('urlInput').value;
+function naviguer() {
+    // Récupérer les valeurs des étapes
+    var etape1 = document.getElementById('etape1').value;
+    var etape2 = document.getElementById('etape2').value;
+    var etape3 = document.getElementById('etape3').value;
+    var etape4 = document.getElementById('etape4').value;
 
-    // Vérifier si l'URL est non vide
-    if (url.trim() !== '') {
-        // Rediriger vers l'URL spécifiée
-        window.location.href = url;
-    } else {
-        // Afficher un message d'erreur si l'URL est vide
-        alert('Veuillez entrer une URL valide.');
-    }
+    // Construire l'URL en fonction des valeurs des étapes
+    var url = etape1 + '/' + etape2 + '/' + etape3 + '/' + etape4;
+
+    // Afficher le résultat
+    var resultatDiv = document.getElementById('resultat');
+    resultatDiv.innerHTML = 'Vous accédez à la page : ' + url;
+
+    // Vous pouvez également rediriger l'utilisateur vers l'URL construite si nécessaire
+    // window.location.href = url;
 }
+
 window.addEventListener('load', function() {
     // Récupérer le chemin (path) du fichier actuel
     var cheminFichier = window.location.pathname;
