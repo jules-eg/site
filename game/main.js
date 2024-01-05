@@ -9,9 +9,9 @@ function naviguer() {
     var url = 'pastju.com/game/' + etape1 + '/' + etape2 + '/' + etape3 + '/' + etape4;
 
     // Afficher le résultat
-    // var resultatDiv = document.getElementById('resultat');
-    // resultatDiv.innerHTML = 'Vous accédez à la page : ' + url;
-
+    var resultatDiv = document.getElementById('resultat');
+    resultatDiv.innerHTML = 'Vous accédez à la page : ' + url;
+    
     // Vous pouvez également rediriger l'utilisateur vers l'URL construite si nécessaire
     window.location.href = url;
 }
