@@ -14,6 +14,7 @@ function naviguer() {
     
     // Vous pouvez également rediriger l'utilisateur vers l'URL construite si nécessaire
     // window.location.href = url;
+    alert('Vous accédez à la page : ' + url);
 }
 
 window.addEventListener('load', function() {
