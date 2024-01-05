@@ -9,7 +9,7 @@
     <script src="../../../main.js"></script>
 </head>
 <body>
-    <div style="border-radius: 5px;border-color: black;border"><a href="https://pastju.com/game/"><h3>Clic to go home</h3></a></div>
+    <div style="border-radius: 5px;border-color: black;border-width: ;"><a href="https://pastju.com/game/"><h3>Clic to go home</h3></a></div>
     <h1>Oh, no.... That page is not good, try again later !</h1>
 
     <div id="resultat"></div>
