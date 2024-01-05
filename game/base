@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redirection de Page</title>
     <link rel="stylesheet" href="https://pastju.com/styles.css">
-    <script src="../../../main.js"></script>
+    <script src="https://pastju.com/main.js"></script>
 </head>
 <body>
     <a href="https://pastju.com/game/"><div class="custom-box"><h3>Clic to go home</h3></div></a>
