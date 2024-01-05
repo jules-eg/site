@@ -11,7 +11,7 @@
 <body>
     <h1>Sorry, it's not good but you can try again box :</h1>
     <form id="navigationForm">
-        <label for="etape1">Étape 1 :</label>
+        <label for="etape1"></label>
         <input type="number" id="etape1" required>
         <label for="etape2">Étape 2 :</label>
         <input type="number" id="etape2" required>
