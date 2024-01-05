@@ -9,7 +9,7 @@
     <script src="../../../main.js"></script>
 </head>
 <body>
-    <a href="https://pastju.com/game/"></a><div class="custom-box"><h3>Clic to go home</h3></div></a>
+    <a href="https://pastju.com/game/"><div class="custom-box"><h3>Clic to go home</h3></div></a>
     <h1>Oh, no.... That page is not good, try again later !</h1>
 
     <div id="resultat"></div>
