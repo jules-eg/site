@@ -9,17 +9,6 @@
     <script src="../../../../main.js"></script>
 </head>
 <body>
-<h1>Sorry, it's not good but you can try again this box :</h1>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Système de Navigation</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
     <form id="navigationForm">
         <label for="etape1">Étape 1 :</label>
         <input type="number" id="etape1" required>
@@ -36,10 +25,4 @@
 
 </body>
 </html>
-
-    <h2 id="nomFichier">base</h2>
-    <script src="../../../../main.js"></script>
-</body>
-</html>
-
 0/0/0/0
