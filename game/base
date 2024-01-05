@@ -6,16 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redirection de Page</title>
     <link rel="stylesheet" href="../../../../styles.css">
+    <script src="../../../main.js"></script>
 </head>
 <body>
-<h1>Sorry, it's not good but you can try again with this box :</h1>
-    <form id="redirectionForm">
-        <label for="urlInput">URL de la page :</label>
-        <input type="text" id="urlInput" placeholder="choose a number" required>
-        <button type="button" onclick="rediriger()">Rediriger</button>
+    <h1>Sorry, it's not good but you can try again thkvdbkjbis box :</h1>
+    <form id="navigationForm">
+        <label for="etape1">Étape 1 :</label>
+        <input type="number" id="etape1" required>
+        <label for="etape2">Étape 2 :</label>
+        <input type="number" id="etape2" required>
+        <label for="etape3">Étape 3 :</label>
+        <input type="number" id="etape3" required>
+        <label for="etape4">Étape 4 :</label>
+        <input type="number" id="etape4" required>
+        <button type="button" onclick="naviguer()">Accéder à la page</button>
     </form>
-    <h2 id="nomFichier">base</h2>
-    <script src="../../../../main.js"></script>
+
+    <div id="resultat"></div>
+
 </body>
 </html>
-
+0/0/0/0
