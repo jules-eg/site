@@ -14,5 +14,5 @@ for ((a=0; a<10; a++))
                         for ((g=0; g<10; g++))
                             do mkdir $a/$b/$c/$d/$e/$f/$g
                             for ((h=0; h<10; h++))
-                                do echo $a$b$c$d$e$f$g$h >> $a/$b/$c/$d/$e/$f/$g/$h.txt
+                                do echo $a$b$c$d$e$f$g$h >> $a/$b/$c/$d/$e/$f/$g/$h
                                 done
