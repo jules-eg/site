@@ -9,6 +9,7 @@
 </head>
 <body>
 <h1>Step 1</h1>
+
     <form id="redirectionForm">
         <label for="urlInput">URL de la page :</label>
         <input type="text" id="urlInput" placeholder="choose a number" required>
