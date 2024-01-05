@@ -9,7 +9,7 @@
     <script src="../../../main.js"></script>
 </head>
 <body>
-    <h1>Sorry, it's not good but you can try again box :</h1>
+    <h1>Oh, no</h1>
     <form id="navigationForm">
         <label for="etape1">Number 1 : </label>
         <input type="number" id="etape1" min="0" max="9" value="0" size="15" required>
