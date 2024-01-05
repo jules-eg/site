@@ -18,7 +18,7 @@ for ((a=0; a<10; a++))
                                 for ((i=0; i<10; i++))
                                     do mkdir $a/$b/$c/$d/$e/$f/$g/$h/$i
                                     for ((j=0; j<10; j++))
-                                        do 
+                                        do cp 
 
 
 
