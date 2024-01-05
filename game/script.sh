@@ -15,5 +15,6 @@ for ((a=0; a<10; a++))
                             do mkdir $a/$b/$c/$d/$e/$f/$g
                             for ((h=0; h<10; h++))
                                 do echo $a$b$c$d$e$f$g$h >> $a/$b/$c/$d/$e/$f/$g/$h
+                                echo $a$b$c$d$e$f$g$h
                                 
                                 done
