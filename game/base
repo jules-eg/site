@@ -18,7 +18,7 @@
         <label for="etape3">Number 3 : </label>
         <input type="number" id="etape3" min="0" max="9" value="0" required>
         <label for="etape4">Number 4 : </label>
-        <input type="number" id="etape4" min="0" max="9" value="0" seize="10" required>
+        <input type="number" id="etape4" min="0" max="9" value="0" sei="10" required>
         <button type="button" onclick="naviguer()">Accéder à la page</button>
     </form>
 
