@@ -13,7 +13,7 @@ function naviguer() {
     resultatDiv.innerHTML = 'Vous accédez à la page : ' + url;
 
     // Vous pouvez également rediriger l'utilisateur vers l'URL construite si nécessaire
-    // window.location.href = url;
+    window.location.href = url;
 }
 
 window.addEventListener('load', function() {
