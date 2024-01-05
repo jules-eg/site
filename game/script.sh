@@ -1,6 +1,6 @@
 #bin/bash
 for ((a=0; a<10; a++))
-do
+    do
     mkdir $a
 for ((b=0; b<10; b++))
 do
