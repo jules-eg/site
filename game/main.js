@@ -7,6 +7,6 @@ function naviguer() {
 
     // Construire l'URL en fonction des valeurs des étapes
     var url = '89.80.176.136/game/'+etape1 + '/' + etape2 + '/' + etape3 + '/' + etape4;
-
+    window.location.href = url;
     console.log('Vous accedez à la page : ' + url);
 }
