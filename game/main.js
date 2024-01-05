@@ -8,5 +8,5 @@ function naviguer() {
     // Construire l'URL en fonction des valeurs des étapes
     var url = '/var/www/html/game/' + etape1 + '/' + etape2 + '/' + etape3 + '/' + etape4;
 
-    alert('Vous accédez à la page : ' + url);
+    alert('Vous accérrrrrrr à la page : ' + url);
 }
