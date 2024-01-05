@@ -28,7 +28,7 @@
         <input type="number" id="etape3" required>
         <label for="etape4">Étape 4 :</label>
         <input type="number" id="etape4" required>
-        <button type="button" onclick="naviguer()">Accéder à la page</button>
+        <button type="button" onclick="naviguer()">Accéder à la</button>
     </form>
 
     <div id="resultat"></div>
