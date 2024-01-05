@@ -1,10 +1,11 @@
 #bin/bash
 for ((a=0; a<10; a++))
 do
-mkdir $a
+    mkdir $a
 for ((b=0; b<10; b++))
 do
-
+mkdir $a/$b
+for ((c=0; c<10; c++))
 
 
 
