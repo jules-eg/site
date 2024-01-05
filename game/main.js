@@ -10,22 +10,3 @@ function naviguer() {
     window.location.href = url;
     console.log('Vous accedez à la page : ' + url);
 }
-
-function synchroniserSliderEtNombre(sliderId, nombreId) {
-    var slider = document.getElementById(sliderId);
-    var nombre = document.getElementById(nombreId);
-
-    slider.addEventListener('input', function() {
-        nombre.value = this.value;
-    });
-
-    nombre.addEventListener('input', function() {
-        slider.value = this.value;
-    });
-}
-
-// Synchroniser les sliders et les nombres
-synchroniserSliderEtNombre('slider1', 'etape1');
-synchroniserSliderEtNombre('slider2', 'etape2');
-synchroniserSliderEtNombre('slider3', 'etape3');
-synchroniserSliderEtNombre('slider4', 'etape4');
