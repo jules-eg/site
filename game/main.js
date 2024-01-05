@@ -12,4 +12,3 @@ function naviguer() {
     // window.location.href = url;
     alert('Vous accédez à la page : ' + url);
 }
-
