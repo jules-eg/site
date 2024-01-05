@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirection de Page</title>
+    <link rel="stylesheet" href="../../../../styles.css">
+    <script src="../../../main.js"></script>
+</head>
+<body>
+    <h1>Sorry, it's not good but you can try again box :</h1>
+    <form id="navigationForm">
+        <label for="etape1">Number 1 : </label>
+        <input type="number" id="etape1" min="0" max="9" value="0" size="5" required>
+        <label for="etape2">Number 2 : </label>
+        <input type="number" id="etape2" min="0" max="9" value="0" size="5" required>
+        <label for="etape3">Number 3 : </label>
+        <input type="number" id="etape3" min="0" max="9" value="0" size="5" required>
+        <label for="etape4">Number 4 : </label>
+        <input type="number" id="etape4" min="0" max="9" value="0" size="5" required>
+        <button type="button" onclick="naviguer()">Accéder à la page</button>
+    </form>
+
+    <div id="resultat"></div>
+
+</body>
+</html>
+0/0/0/0
+0/5/1/2
