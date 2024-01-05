@@ -6,7 +6,7 @@ function naviguer() {
     var etape4 = document.getElementById('etape4').value;
 
     // Construire l'URL en fonction des valeurs des étapes
-    var url = '../../../../' etape1 + '/' + etape2 + '/' + etape3 + '/' + etape4;
+    var url = '../../../../'  + etape1 + '/' + etape2 + '/' + etape3 + '/' + etape4;
 
     // Afficher le résultat
     var resultatDiv = document.getElementById('resultat');
