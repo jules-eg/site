@@ -10,6 +10,7 @@
 </head>
 <body>
     <h1>Oh, no.... That page is not good, try again later !</h1>
+    
     <form id="navigationForm">
         <label for="etape1">Number 1 : </label>
         <input type="number" id="etape1" min="0" max="9" value="0" size="15" required>
