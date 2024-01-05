@@ -12,7 +12,7 @@
     <h1>Sorry, it's not good but you can try again box :</h1>
     <form id="navigationForm">
         <label for="etape1">Number 1 : </label>
-        <input type="number" id="etape1" min="0" max="9" value="0" size="5" required>
+        <input type="number" id="etape1" min="0" max="9" value="0" size="" required>
         <label for="etape2">Number 2 : </label>
         <input type="number" id="etape2" min="0" max="9" value="0" size="5" required>
         <label for="etape3">Number 3 : </label>
@@ -26,5 +26,4 @@
 
 </body>
 </html>
-0/0/0/0
 4/4/4/5
